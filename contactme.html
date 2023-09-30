@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CONTACT ME</title>
+    <link rel="stylesheet" href="contactstyle.css">
+    <style>
+        body{
+            background-image: url('contback.jpeg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       label{
+        font-size: 20px;
+       }
+       aside{
+            margin-left: 700px;
+            margin-top: -50px;     
+        }
+        section{
+            margin-left: 10px;
+            margin-top: 6px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: blue;
+            transition: 400ms;
+           
+        }
+        #abc{
+            padding-top: -800px;
+
+        }
+        #submit{
+            border: 3px solid black;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        #submit:hover{
+            background-color: aqua;
+
+        }
+        
+    </style>
+    
+      
+      
+   
+</head>
+<body>
+    <header>
+        <section>
+            &nbsp;&nbsp;<a href="https://thetapacademy.com/"><img src="taplogo.png" alt=""></a>
+        </section>
+
+    <aside>
+        <font face="constantia" size="2px" style="font-size: 20px;">
+            <a href="index.html"><b>HOME</a>&nbsp;&nbsp;
+            <a href="About.html">ABOUT ME</a>&nbsp;&nbsp;
+            <a href="Education.html">EDUCATION</a>&nbsp;&nbsp;
+            <a href="project.html">PROJECTS</a>&nbsp;&nbsp;
+            <a href="certificates.html">CERTIFICATES</a>&nbsp;&nbsp;
+            <a href="contactme.html">CONTACT ME</a>&nbsp;
+           </font>
+           <br><br><br>
+        </aside>
+    </header>
+        
+        <br>
+        <fieldset style="border: 5px ridge black; width: 50%; background-color: rgb(190, 214, 214);">
+            <legend style="font-size: 30px;"> CONTACT ME</legend><br><br>
+        <div class="container">
+            <form>
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <br><br>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <br><br>
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">India</option>
+                <option value="canada">China</option>
+                <option value="usa">USA</option>
+              </select>
+              <br><br>
+          
+              <div id="abc">
+              <label for="subject">Subject</label>
+            </div>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;width:50%;"></textarea>
+              <br><br>
+              <div >
+                <input id="submit" type="Submit">
+              </div>
+            </form>
+          </div>
+        </fieldset>
+
+        <footer>
+        <div>
+        <h3>For more Query Contact</h3><br>
+        <a href="https://www.linkedin.com/feed/" style="transition: 200ms;">
+            <img src="LinkedImage.jpg" height="30px" width="30px"  alt="">
+        </a>
+            &nbsp;&nbsp;
+            <a href="https://www.instagram.com/" style="transition: 200ms;">
+                <img src="instagramlogo.webp" height="30px" width="30px" alt="">
+            </a>
+            &nbsp;&nbsp;
+            <a href="https://www.gmail.com/" style="transition: 200ms;">
+                <img src="gmail.png" height="30px" width="30px" alt="">
+            </a>
+       </div>
+    </footer>
+    
+</body>
+</html>

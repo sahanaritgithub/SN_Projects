@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title >ABOUT ME</title>
+
+    <style>
+        h3{text-align: left;
+
+        }
+        #photo{
+            border: 2px double black;
+        }
+        #abc{
+            padding-left: 810px;
+           padding-top: 20px;
+        }
+       
+        aside{
+            margin-left: 700px;
+            margin-top: -50px;     
+        }
+        section{
+            margin-left: 10px;
+            margin-top: 6px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: blue;
+            transition: 400ms;
+           
+        }
+        #xyz{
+            margin-top: -2px;
+            text-align: justify;
+        }
+        .column:hover{
+            filter: scale(1);
+            transform: scale(1.2);
+            transition: 400ms;
+        }
+        .image {
+	     width: 100%;
+         height: 60px;
+         mix-blend-mode: multiply;
+        }
+        .container {
+	      display: flex;
+          padding-top: 10px;
+          gap: 15px;
+        }
+        .xyz:hover{
+            filter:scale(1);
+            transform: scale(1.2);
+            
+        }
+        #video{
+            margin-top: -180px;
+            margin-left: 800px;
+            border: 3px ridge black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section>
+            &nbsp;&nbsp;<a href="https://thetapacademy.com/"><img src="taplogo.png" alt=""></a>
+         </section>
+        
+        <aside>
+          <font face="constantia" id="fontF" size="2px" style="font-size: 20px;">
+            <a href="index.html"><b>HOME</a>&nbsp;&nbsp;
+            <a href="About.html">ABOUT ME</a>&nbsp;&nbsp;&nbsp;
+            <a href="Education.html">EDUCATION</a>&nbsp;&nbsp;&nbsp;
+            <a href="project.html">PROJECTS</a>&nbsp;&nbsp;&nbsp;
+            <a href="certificates.html">CERTIFICATES</a>&nbsp;&nbsp;&nbsp;
+            <a href="contactme.html">CONTACT ME</a>&nbsp;&nbsp;&nbsp;
+           </font>
+        </aside>
+    </header>
+           <br><br><br>
+    
+    <fieldset style="width: 70%; height: 500px; border: 3px solid black; background-color: bisque;">
+        <legend style="font-size: 30px;">About me</legend>
+        
+        <div id="abc">
+            <img id="photo" src="sahanan.jpg" height="200px" width="200px">
+        </div>
+        <br><br><br>
+
+        <div>
+            <h3 style="margin-top: -250px;">
+                Hello,
+            </h3>
+        </div>
+    <div id="xyz">
+          I am Sahana Naik<br>
+         I recently Completed my Gradudation from <b>Hirasugar Institute of Technology Nidasoshi</b><br>
+         in Computer Science and Engineering.Currently I am Pursuing Java Full Stack Web Development <br>Course at <i>TAP ACADEMY</i>
+        </div>
+    <br>
+    <section id="skils">
+        <h2 style="color: blue; text-align: left;">
+            Technical skills: 
+        </h2>
+       </section>
+
+       <div class="container">
+        <div class="column"><a href="">
+            <img class="image" src="java.jpg" alt="image1">Java
+        </a>
+          </div>
+          <div class="column"><a href="">
+            <img class="image" src="sql.jpg" alt="image1">Sql
+        </a>
+          </div>
+          <div class="column"><a href="">
+            <img class="image" src="html.jpg" alt="image1">Html
+        </a>
+          </div>
+          <div class="column"><a href="">
+            <img class="image" src="css.jpg" alt="image1">css
+        </a>
+          </div>
+          <div class="column"><a href="">
+            <img class="image" src="jdbc.jpg" alt="image1">Jdbc
+        </a>
+          </div>
+    </div>
+    <br><br>
+    
+    <h4>Contact Details</h4>
+    
+    <div>
+        <a href="https://www.linkedin.com/feed/" style="transition: 200ms;">
+        <img  class="xyz" src="LinkedImage.jpg" height="25px" width="25px"  alt="">
+    </a>
+        &nbsp;
+        <a href="https://www.instagram.com/" style="transition: 200ms;">
+            <img class="xyz" src="instagramlogo.webp" height="25px" width="25px" alt="">
+        </a>
+        &nbsp;
+        <a href="contactme.html" style="transition: 200ms;">
+            <img class="xyz"  src="phonelogo.png" height="25px" width="25px" alt="">
+        </a>
+
+    </div>
+
+    <div id="video">
+       <video src="sahana.mp4" style="height: 200px; width: 200px;" controls></video>
+    </div>   
+</fieldset>
+
+
+    
+</body>
+</html>
